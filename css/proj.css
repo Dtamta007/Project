@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.top{
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+.subjects{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(133, 131, 131);
+}
+#sub-title{
+    height: 100%;
+    width: 50%;
+}
+#assignment{
+    height: 100%;
+    width: 50%;
+    background-color:rgb(133, 131, 131);
+}
+.mid{
+    height: 63%;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+}
+.items{
+    height: 100%;
+    width: 30%;
+    background-color: #282F44;
+    border-radius: 5%;
+    
+}
+.map{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    margin-left: 5px;
+}
+.feedback{
+    height: 100%;
+    width: 30%;
+    background-color: #282F44;
+    border-radius: 5%;
+    margin-left: 5px;
+}
+.footers{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555555;
+}
+
+#map1{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+.mainmenu{
+    list-style: none;
+}
+.mainmenu>li{
+    display: inline-block;
+    margin-left: 5px;
+}
+#sub-title>ul li a{
+    text-decoration: none;
+    background-color: rgb(133, 131, 131);
+    display: block;
+    padding: 12px 15px 9px 15px;
+    color: white;
+}
+#sub-title .mainmenu li:hover>a{
+    background-color: rgb(32, 185, 236);
+}
+.submenu{
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+.mainmenu>li:hover .submenu{
+    display: block;
+}
+h2{
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+}
+#feed{
+   margin-top:  8%;
+   margin-left: 20px;
+   border-radius: 5%;
+   border-width: 2px;
+   border-color: black;
+   border-style: solid;
+}
+#but{
+    margin-top: 3%;
+    height: 40px;
+    width: 90px;
+    border-radius: 9%;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.sub{
+    list-style: none;
+}
+.sub li{
+    display: inline-block;
+}
+.sub>li a{
+    text-decoration: none;
+    background-color: rgb(133, 131, 131);
+    display: block;
+    padding: 12px 15px 9px 15px;
+    color: white;
+}
+.items>ul a{
+    padding: 5%;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.items>ul li:hover a{
+    background-color: #3861db;
+}
+#assignment .sub>li:hover a{
+    background-color:  rgb(32, 185, 236); ;
+}
