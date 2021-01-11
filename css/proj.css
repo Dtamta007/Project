@@ -26,6 +26,7 @@ body{
 #assignment{
     height: 100%;
     width: 50%;
+    display: flex;
     background-color:rgb(133, 131, 131);
 }
 .mid{
@@ -120,12 +121,28 @@ h2{
 .sub li{
     display: inline-block;
 }
-.sub>li a{
+.sub li a{
     text-decoration: none;
     background-color: rgb(133, 131, 131);
-    display: block;
+    display: inline-block;
     padding: 12px 15px 9px 15px;
     color: white;
+}
+.exp{
+    display: none;
+    background-color:rgb(133, 131, 131);
+}
+#assignment ul li:hover .exp{
+    display: block;
+    position: absolute;
+    background-color: rgb(133, 131, 131);
+}
+#assignment ul li:hover .exp li{
+    display: block;
+    background-color:rgb(133, 131, 131)
+}
+#assignment ul .exp>li:hover a{
+    background-color:rgb(32, 185, 236);
 }
 .items>ul a{
     padding: 5%;
@@ -136,7 +153,7 @@ h2{
 .items>ul li:hover a{
     background-color: #3861db;
 }
-#assignment .sub>li:hover a{
+#assignment ul :hover>a{
     background-color:  rgb(32, 185, 236); ;
 }
 #logo{
